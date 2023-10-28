@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix India &dash; Watch TV Shows Online, Watch Movies</title>
     <link rel="stylesheet" href="style_netflix.css">
+    <link rel="stylesheet" href="portrait.css">
     <link rel="icon" href="Netflix logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,21 +16,25 @@
     <header>
         <div class="hero">
             <div class="nav-top">
-                <div class="netflix-logo"></div>
-                <div class="nav-button">
-                    <i class="fa-solid fa-globe"></i>
-                    <select class="nav-sel">
-                        <option value="eng"><p>English</p></option>
-                    </select>
+                <img src="Netflix_Logo.png" alt="" class="netflix-logo">
+                <div class="nav-btns">
+                    <div class="nav-button">
+                        <i class="fa-solid fa-globe"></i>
+                        <select class="nav-sel">
+                            <option value="eng"><p>English</p></option>
+                        </select>
+                    </div>
+                    <a href="#" id="sign-in" class="sign-in-btn">Sign In</a> 
                 </div>
-                <a href="#" id="sign-in">Sign In</a> 
             </div>
 
             <div class="nav-main">
-                <div class="txt">
-                    <h1>Unlimited movies, TV shows and more</h1>
-                    <p>Watch anywhere. Cancel anytime.</p>
-                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <h1>Unlimited movies, TV shows and more</h1>
+                <p>
+                    Watch anywhere. Cancel anytime.<br>
+                    Ready to watch? Enter your email to create or restart your membership.
+                </p>
+                <div class="main-btns">
                     <input type="email" placeholder=" Email address" class="inp-mail">
                     <button type="submit" class="st-btn">Get Started ></button>
                 </div>
@@ -37,14 +42,14 @@
         </div>
     </header>
 
-    <main>
+     <main>
         <div class="section-1">
             <div class="sec_1-content">
                 <div class="sec-1_txt">
                     <h2>Enjoy on your TV</h2>
                     <p class="sec-1_p">Watch on smart TVs, PlayStation, Xbox, Chromecast,<br>Apple TV, Blu-ray players and more.</p>
                 </div>
-                <img src="1.png">
+                <img src="1.png" class="section-1_img">
             </div>
         </div>
 
@@ -54,7 +59,7 @@
                     <h2>Download your shows to watch offline</h2>
                     <p class="sec-2_p">Save your favourites easily and always have<br>something to watch.</p>
                 </div>
-                <img src="2.jpg">
+                <img src="2.jpg" class="section-2_img">
             </div>
         </div>
 
@@ -65,7 +70,7 @@
                     <p class="sec-3_p">Stream unlimited movies and TV shows on your<br>phone, tablet, laptop, and TV.</p>
                 </div>
                 <div class="pc">
-                    <img src="3.png">
+                    <img src="3.png" class="section-3_img">
                 </div>
             </div>
         </div>
@@ -77,7 +82,7 @@
                     <p class="sec-4_p">Send children on adventures with their favourite<br>characters in a space made just for them—free with<br>your membership.</p>
                 </div>
                 <div class="4.jpg">
-                    <img src="4.png">
+                    <img src="4.png" class="section-4_img">
                 </div>
             </div>
         </div>
@@ -99,7 +104,7 @@
                 </div>
                 
                 <p id="btm-line">Ready to watch? Enter your email to create or restart your membership.</p>
-                <div class="sec-5_bottom">
+                <div class="main-btns sec-5-btns">
                     <input type="email" placeholder=" Email address" class="inp-mail">
                     <button type="submit" class="st-btn">Get Started ></button>
                 </div>
@@ -108,36 +113,32 @@
     </main>
 
     <footer>
-        <div class="bottom-section">
-            <div class="btm-material">    
-                <div class="btm-links">
-                    <p id="b-top">Questions? Call <u><a href="#">000-800-919-1694</a></u></p>
-                    <ul>
-                        <p><a href="#">FAQ</a></p>
-                        <p><a href="#">Account</a></p>
-                        <p><a href="#">Media Centre</a></p>
-                        <p><a href="#">Investor Relations</a></p>
-                        <p><a href="#">Jobs</a></p>
-                        <p><a href="#">Way to Watch</a></p>
-                        <p><a href="#">Terms of Use</a></p>
-                        <p><a href="#">Privacy</a></p>
-                        <p><a href="#">Cookie Prefrences</a></p>
-                        <p><a href="#">Corporate Information</a></p>
-                        <p><a href="#">Contact Us</a></p>
-                        <p><a href="#">Speed Test</a></p>
-                        <p><a href="#">Legal Notices</a></p>
-                        <p><a href="#">Only on Netflix</a></p>
-                    </ul>
-                    <div class="nav-button end-btn">
-                        <i class="fa-solid fa-globe"></i>
-                        <select class="nav-sel">
-                            <option value="eng"><p>English</p></option>
-                        </select>
-                    </div>
-                    <p id="b-btm"><a href="#">Netflix India</a></p>
-                </div>
+        <div class="btm-links">
+            <p id="b-top">Questions? Call <u><a href="#">000-800-919-1694</a></u></p>
+            <ul>
+                <p><a href="#">FAQ</a></p>
+                <p><a href="#">Account</a></p>
+                <p><a href="#">Media Centre</a></p>
+                <p><a href="#">Investor Relations</a></p>
+                <p><a href="#">Jobs</a></p>
+                <p><a href="#">Way to Watch</a></p>
+                <p><a href="#">Terms of Use</a></p>
+                <p><a href="#">Privacy</a></p>
+                <p><a href="#">Cookie Prefrences</a></p>
+                <p><a href="#">Corporate Information</a></p>
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">Speed Test</a></p>
+                <p><a href="#">Legal Notices</a></p>
+                <p><a href="#">Only on Netflix</a></p>
+            </ul>
+            <div class="nav-button end-btn">
+                <i class="fa-solid fa-globe"></i>
+                <select class="nav-sel">
+                    <option value="eng"><p>English</p></option>
+                </select>
             </div>
+            <p id="b-btm"><a href="#">Netflix India</a></p>
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>

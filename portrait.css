@@ -1,0 +1,128 @@
+/* For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px
+For Extra-large size device: 1200px and more */
+
+
+@media(max-width: 1200px){
+    .nav-main{
+        font-size: 1.2rem;
+        line-height: 3.8rem;
+    }
+    .nav-top{
+        gap: 15rem;
+    }
+    .st-btn{
+        font-size: 1rem;
+    }
+    .sec_1-content, .sec_2-content, .sec_3-content, .sec_4-content{
+        font-size: 2.2rem;
+    }
+    .sec_5-content h2{
+        font-size: 2.5rem;
+    }
+    #btm-line{
+        font-size: 1.2rem;
+    }
+    .q1, .q1-ans{
+        font-size: 1.2rem;
+    }
+    .q1 i{
+        font-size: 2.2rem;
+    }
+}
+/* ----------------------------- */
+@media(max-width: 1024px){
+    .nav-main{
+        font-size: 1rem;
+        line-height: 3.5rem;
+    }
+    .nav-top{
+        gap: 10rem;
+    }
+    .st-btn{
+        font-size: 0.8rem;
+    }
+    .sec_1-content, .sec_2-content, .sec_3-content, .sec_4-content{
+        font-size: 1.8rem;
+    }
+    .q1 i{
+        font-size: 2rem;
+    }
+}
+/* ------------------------------- */
+@media(max-width: 768px){
+    .nav-main{
+        font-size: 1rem;
+        line-height: 3rem;
+    }
+    .nav-top{
+        gap: 3rem;
+    }
+    .hero .nav-button{
+        display: none;
+    }
+    .st-btn{
+        font-size: 0.5rem;
+    }
+    .inp-mail, .st-btn{
+        height: 3rem;
+    }
+    .sec_1-content, .sec_2-content, .sec_3-content, .sec_4-content{
+        font-size: 1.2rem;
+    }
+    .sec_5-content h2{
+        font-size: 2rem;
+    }
+    #btm-line{
+        font-size: 1rem;
+    }
+    .q1, .q1-ans{
+        font-size: 0.8rem;
+    }
+    .q1 i{
+        font-size: 1.5rem;
+    }
+    ul{
+        margin-left: 3rem;
+        font-size: 0.8rem;
+    }
+    #b-top, .end-btn, #b-btm{
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+}
+/* -------------------------------- */
+@media(max-width: 320px){
+    .nav-main{
+        font-size: 0.8rem;
+        line-height: 2.5rem;
+    }
+    .nav-top a{
+        font-size: 0.6rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .netflix-logo{
+        width: 4rem;
+    }
+    .sign-in-btn{
+        font-size: 0.1rem;
+    }
+    .inp-mail, .st-btn{
+        height: 2rem;
+    }
+    .sec_1-content, .sec_2-content, .sec_3-content, .sec_4-content{
+        font-size: 1rem;
+    }
+    .q1, .q1-ans{
+        font-size: 0.7rem;
+    }
+    .q1 i{
+        font-size: 1rem;
+    }
+    ul{
+        margin-left: 1.5rem;
+        font-size: 0.6rem;
+    }
+}
