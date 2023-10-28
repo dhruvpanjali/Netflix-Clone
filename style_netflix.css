@@ -27,7 +27,6 @@ a{
     gap: 10rem;
 }
 .nav-main{
-    overflow: hidden;
     margin: 0 auto;
     font-family: 'Anton', sans-serif;
     color: white;
