@@ -24,7 +24,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 6rem;
+    gap: 10rem;
 }
 .nav-main{
     overflow: hidden;
@@ -35,7 +35,7 @@ a{
 
     font-size: 1.4rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 13rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,6 +344,7 @@ a{
 /* -------------------------------------------------------- */
 
 .btm-links{
+    overflow: hidden;
     width: 100vw;
     height: 60vh;
     display: flex;
@@ -387,6 +388,7 @@ ul{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.2rem;
 }
-#b-btm a{
+.btm-links a{
+    color: white;
     text-decoration: 1px solid underline white;
 }
